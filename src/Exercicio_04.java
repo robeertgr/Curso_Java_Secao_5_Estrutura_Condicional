@@ -10,10 +10,11 @@ public class Exercicio_04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        int DuracaoJogo;
+
         System.out.print("Informe a hora inicial e final do jogo em inteiro: ");
         int HoraInicial = sc.nextInt();
         int HoraFinal = sc.nextInt();
-        int DuracaoJogo;
 
         if (HoraInicial < HoraFinal){
             DuracaoJogo = HoraFinal - HoraInicial;
